@@ -56,6 +56,14 @@
         android:text="카카오앱 다운"
         />
 
+    <Button
+        android:id="@+id/googleMapBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="더조은 학원을 구글 맵으로"
+        />
+
+
 
 
 
