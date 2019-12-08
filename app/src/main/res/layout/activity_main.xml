@@ -25,4 +25,22 @@
         android:text="실제전화걸리(010-1111-2222)"
         />
 
+
+    <EditText
+        android:id="@+id/smsNumEdt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="문자보낼 번호"
+        android:layout_marginTop="50dp"
+        android:inputType="phone"
+        />
+
+    <Button
+        android:id="@+id/smsBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="문자전송버튼(입력한 번호로)"
+        />
+
+
 </LinearLayout>

@@ -26,5 +26,15 @@ class MainActivity : AppCompatActivity() {
             startActivity(Inte)
         }
 
+        smsBtn.setOnClickListener {
+            val uri = Uri.parse("smsto:${smsNumEdt.text.toString()}")
+
+            val inte = Intent(Intent.ACTION_SENDTO,uri)
+
+            inte.putExtra("sms_body","광고 문구 입력하자")
+
+            startActivity(inte)
+        }
+
     }
 }
