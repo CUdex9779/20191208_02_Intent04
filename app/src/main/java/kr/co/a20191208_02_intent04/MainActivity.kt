@@ -20,11 +20,11 @@ class MainActivity : AppCompatActivity() {
             startActivity(Intent)
         }
 
-        callBtn.setOnClickListener {
-            val uri = Uri.parse("tel:010-1111-2222")
-            val Inte = Intent(Intent.ACTION_CALL,uri)
-            startActivity(Inte)
-        }
+//        callBtn.setOnClickListener {
+//            val uri = Uri.parse("tel:010-1111-2222")
+//            val Inte = Intent(Intent.ACTION_CALL,uri)
+//            startActivity(Inte)
+//        }
 
         smsBtn.setOnClickListener {
             val uri = Uri.parse("smsto:${smsNumEdt.text.toString()}")
@@ -34,6 +34,12 @@ class MainActivity : AppCompatActivity() {
             inte.putExtra("sms_body","광고 문구 입력하자")
 
             startActivity(inte)
+        }
+
+        naverBtn.setOnClickListener {
+            val uri = Uri.parse("https://naver.com")
+            val intent = Intent(Intent.ACTION_VIEW , uri)
+            startActivity(intent)
         }
 
     }

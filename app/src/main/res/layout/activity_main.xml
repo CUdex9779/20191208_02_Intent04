@@ -42,5 +42,13 @@
         android:text="문자전송버튼(입력한 번호로)"
         />
 
+    <Button
+        android:id="@+id/naverBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="네이버 화면으로 보내기"
+        />
+
+
 
 </LinearLayout>
