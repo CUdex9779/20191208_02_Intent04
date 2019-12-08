@@ -49,6 +49,14 @@
         android:text="네이버 화면으로 보내기"
         />
 
+    <Button
+        android:id="@+id/kakaoAppBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="카카오앱 다운"
+        />
+
+
 
 
 </LinearLayout>
